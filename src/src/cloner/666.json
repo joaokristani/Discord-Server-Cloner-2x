@@ -1,0 +1,3916 @@
+{
+    "name": "Infinite Community",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "CENTRAL",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1051648"
+                    },
+                    {
+                        "roleName": "────────────────────────────────",
+                        "allow": "0",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📢｜ᴀᴠɪꜱᴏꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "CENTRAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "VIP",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "────────────────────────────────",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚫｜ʀᴇɢʀᴀꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "CENTRAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "────────────────────────────────",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📌｜ʀᴇɢɪꜱᴛʀᴇ-ꜱᴇ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "CENTRAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "────────────────────────────────",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📣｜ɴᴏᴛɪꜰɪᴄᴀçõᴇꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "CENTRAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "────────────────────────────────",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎉｜ᴀᴛᴜᴀʟɪᴢᴀçõᴇꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "CENTRAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "VIP",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "────────────────────────────────",
+                                "allow": "0",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀｜ꜱᴇᴊᴀ-ʙᴏᴏꜱᴛᴇʀ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "CENTRAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "────────────────────────────────",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "👏｜ɪᴍᴘᴜʟꜱᴏꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "CENTRAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "────────────────────────────────",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✍｜ɴíᴠᴇʟ-ᴜᴘ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "CENTRAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "────────────────────────────────",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⭐｜ꜱᴛᴀʀʙᴏᴀʀᴅ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "CENTRAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "────────────────────────────────",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Area Vídeos",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1048576"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔓｜ᴅᴇꜱʙʟᴏqᴜᴇᴀʀ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Area Vídeos",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048640"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "💭｜ꜰᴀq",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Area Vídeos",
+                        "permissions": [
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "0",
+                                "deny": "274877908992"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "274877908992"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "2048",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📂｜ᴅᴏᴡɴʟᴏᴀᴅꜱ-ᴀɴᴛɪɢᴏꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Area Vídeos",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Desbloqueado",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1048576",
+                                "deny": "3136"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051712"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "📨｜ᴀᴊᴜᴅᴀ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Area Vídeos",
+                        "permissions": [
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Desbloqueado",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "📂｜ᴅᴏᴡɴʟᴏᴀᴅꜱ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Area Vídeos",
+                        "permissions": [
+                            {
+                                "roleName": "Desbloqueado",
+                                "allow": "1024",
+                                "deny": "274877908992"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": ".",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "ÁREA PRINCIPAL",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬｜ᴄʜᴀᴛ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "ÁREA PRINCIPAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "103079264256"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "😂｜ᴍᴇᴍᴇꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "ÁREA PRINCIPAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1098752",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📸｜ᴍíᴅɪᴀꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "ÁREA PRINCIPAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1098752",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖｜ᴄᴏᴍᴀɴᴅᴏꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "ÁREA PRINCIPAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Main English",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬｜ᴇɴɢʟɪꜱʜ-ᴄʜᴀᴛ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Main English",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "English",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "103079264256"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Português",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "😂｜ᴍᴇᴍᴇꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Main English",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1098752",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📸｜ᴍᴇᴅɪᴀ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Main English",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1098752",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖｜ᴄᴏᴍᴍᴀɴᴅꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Main English",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "SUPORTE",
+                "permissions": [
+                    {
+                        "roleName": "Dono(a)",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Gerente",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🗿｜ᴄʜᴀᴛ-ꜱᴛᴀꜰꜰ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SUPORTE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📜｜ꜱᴛᴀꜰꜰ-ʟᴏɢꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SUPORTE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📞｜ᴅᴇɴᴜɴᴄɪᴇ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SUPORTE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "65536"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1114112"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎫｜ᴛɪᴄᴋᴇᴛ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SUPORTE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔰｜ᴀᴠᴀʟɪᴀʀ-ꜱᴛᴀꜰꜰ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SUPORTE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1115136",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1114112"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💌｜ꜱᴜɢᴇꜱᴛõᴇꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SUPORTE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ajudante",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Equipe STAFF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Dono(a)",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Gerente",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1114112"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Programação",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🛠｜ꜱᴄʀɪᴘᴛꜱ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Programação",
+                        "permissions": [
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1051648",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🤝｜ᴀᴊᴜᴅᴀ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Programação",
+                        "permissions": [
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1051648",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "✨｜ᴘᴏʀᴛꜰóʟɪᴏ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Programação",
+                        "permissions": [
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Gta Scripting",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "📦｜ꜱᴀ-ᴍᴘ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Gta Scripting",
+                        "permissions": [
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "📦｜ᴍᴛᴀ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Gta Scripting",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "📦｜ꜰɪᴠᴇᴍ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Gta Scripting",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "📦｜ᴍᴏᴅꜱ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Gta Scripting",
+                        "permissions": [
+                            {
+                                "roleName": "VIP",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Area Booster",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚀｜ᴄᴀʟʟ-ʙᴏᴏꜱᴛᴇʀ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Area Booster",
+                        "permissions": [
+                            {
+                                "roleName": "VIP",
+                                "allow": "3072",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1024",
+                                "deny": "1050625"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "2098688",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1051648",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀｜ᴄʜᴀᴛ-ʙᴏᴏꜱᴛᴇʀ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Area Booster",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "VIP",
+                                "allow": "1050624",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1048576",
+                                "deny": "3073"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀｜ᴅɪᴠᴜʟɢᴀᴄᴀᴏ-ʙᴏᴏꜱᴛᴇʀ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Area Booster",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "2049"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Canais de Voz",
+                "permissions": [
+                    {
+                        "roleName": "Parceiros",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "VIP",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "VIP Booster",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚀｜ʙᴏᴏꜱᴛᴇʀ'ꜱ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Canais de Voz",
+                        "permissions": [
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "💬｜ɢᴇʀᴀʟ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Canais de Voz",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "549758961152",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "💻｜ᴘʀᴏɢʀᴀᴍᴀɴᴅᴏ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Canais de Voz",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🎶｜ᴍᴜꜱɪᴄᴀ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Canais de Voz",
+                        "permissions": [
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "2097152"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "2097152"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1049600",
+                                "deny": "2097152"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "2098176"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "2097152"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Historia",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦┃ɢᴀᴍᴇᴍᴏᴅᴇꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "📦┃ꜱᴄʀɪᴘᴛꜱ",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Historia",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "📝┃portfólio",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Historia",
+                        "permissions": [
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1048576",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1050624",
+                                "deny": "1024"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦┃ꜱɪꜱᴛᴇᴍᴀꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦┃ᴍᴀᴘᴀꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦┃ᴍᴏᴅꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦┃ᴘʟᴜɢɪɴꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦┃ꜰɪʟᴛᴇʀꜱᴄʀɪᴘᴛꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💡┃faq",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1048576",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1048576",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤝┃parceiros",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "0",
+                                "deny": "19456"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🟡┃ꜱᴄʀɪᴘᴛꜱ-ᴘʏ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1050624",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤝┃seja-parceiro",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "0",
+                                "deny": "19456"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔴┃ᴅᴏᴡɴʟᴏᴀᴅs-ᴠɪᴅᴇᴏs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": "<#1014927633923964979>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "65536",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1048576",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1048576",
+                                "deny": "377957125120"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "☁┃ʜᴏꜱᴘᴇᴅᴀɢᴇᴍ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "VIP Booster",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Convidados",
+                                "allow": "1048576",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Comunidade",
+                                "allow": "1048576",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Parceiros",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "comunista",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "────────── Linguagens ──────────",
+                                "allow": "1048576",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🏴┃ᴅᴜᴠɪᴅᴀꜱ-ɢᴇʀᴀɪꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Historia",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "lobby",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "VIP Booster",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "Ajudante",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Equipe STAFF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Moderador",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Administrador",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Gerente",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "────────────────────────────────",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Comunidade",
+                        "allow": "0",
+                        "deny": "3136"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "1050688"
+                    },
+                    {
+                        "roleName": "VIP",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Parceiros",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "Dono(a)",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "────────────────────────────────",
+            "color": "#0a0909",
+            "hoist": false,
+            "permissions": "1071698660929",
+            "mentionable": false,
+            "position": 52,
+            "isEveryone": false
+        },
+        {
+            "name": ".",
+            "color": "#080808",
+            "hoist": false,
+            "permissions": "934192090633",
+            "mentionable": false,
+            "position": 51,
+            "isEveryone": false
+        },
+        {
+            "name": "Dono(a)",
+            "color": "#080707",
+            "hoist": true,
+            "permissions": "934192090633",
+            "mentionable": false,
+            "position": 50,
+            "isEveryone": false
+        },
+        {
+            "name": "Gerente",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "2171365486147",
+            "mentionable": false,
+            "position": 49,
+            "isEveryone": false
+        },
+        {
+            "name": "Bot's",
+            "color": "#ff0006",
+            "hoist": false,
+            "permissions": "934192090633",
+            "mentionable": false,
+            "position": 48,
+            "isEveryone": false
+        },
+        {
+            "name": "Administrador",
+            "color": "#920b8d",
+            "hoist": true,
+            "permissions": "2171365420609",
+            "mentionable": false,
+            "position": 47,
+            "isEveryone": false
+        },
+        {
+            "name": "Moderador",
+            "color": "#009cff",
+            "hoist": true,
+            "permissions": "9731426201089",
+            "mentionable": false,
+            "position": 46,
+            "isEveryone": false
+        },
+        {
+            "name": "Ajudante",
+            "color": "#00ff68",
+            "hoist": true,
+            "permissions": "934259273217",
+            "mentionable": false,
+            "position": 45,
+            "isEveryone": false
+        },
+        {
+            "name": "Equipe STAFF",
+            "color": "#050505",
+            "hoist": true,
+            "permissions": "2033703718401",
+            "mentionable": false,
+            "position": 44,
+            "isEveryone": false
+        },
+        {
+            "name": "────────────────────────────────",
+            "color": "#0c0b0b",
+            "hoist": false,
+            "permissions": "1071698660929",
+            "mentionable": false,
+            "position": 43,
+            "isEveryone": false
+        },
+        {
+            "name": "VIP Booster",
+            "color": "#f93bff",
+            "hoist": true,
+            "permissions": "1071698529793",
+            "mentionable": false,
+            "position": 42,
+            "isEveryone": false
+        },
+        {
+            "name": "VIP",
+            "color": "#00ffea",
+            "hoist": true,
+            "permissions": "1071698529793",
+            "mentionable": false,
+            "position": 41,
+            "isEveryone": false
+        },
+        {
+            "name": "Parceiros",
+            "color": "#efff00",
+            "hoist": true,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 40,
+            "isEveryone": false
+        },
+        {
+            "name": "────────────────────────────────",
+            "color": "#050505",
+            "hoist": false,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 39,
+            "isEveryone": false
+        },
+        {
+            "name": "CALADO COMUNISTA!",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": "4362077185",
+            "mentionable": false,
+            "position": 38,
+            "isEveryone": false
+        },
+        {
+            "name": "Branco",
+            "color": "#ffffff",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 37,
+            "isEveryone": false
+        },
+        {
+            "name": "Preto",
+            "color": "#020202",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 36,
+            "isEveryone": false
+        },
+        {
+            "name": "Padrão",
+            "color": "#00beff",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 35,
+            "isEveryone": false
+        },
+        {
+            "name": "Vermelho",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 34,
+            "isEveryone": false
+        },
+        {
+            "name": "Comunidade",
+            "color": "#00beff",
+            "hoist": false,
+            "permissions": "831111892481",
+            "mentionable": false,
+            "position": 33,
+            "isEveryone": false
+        },
+        {
+            "name": "Angolano",
+            "color": "#382727",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 32,
+            "isEveryone": false
+        },
+        {
+            "name": "Convidados",
+            "color": "#ff6100",
+            "hoist": false,
+            "permissions": "934192156161",
+            "mentionable": false,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "────────────────────────────────",
+            "color": "#030303",
+            "hoist": false,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 30,
+            "isEveryone": false
+        },
+        {
+            "name": "────────── Linguagens ──────────",
+            "color": "#ffffff",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "Java",
+            "color": "#007396",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "JavaScript",
+            "color": "#215732",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "PHP",
+            "color": "#4f5d95",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "GO",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "Ruby",
+            "color": "#cc342d",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "C#",
+            "color": "#9b59b6",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "Python",
+            "color": "#1e415b",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "TypeScript",
+            "color": "#007acc",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "Kotlin",
+            "color": "#050505",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "Rust",
+            "color": "#080808",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "Lua",
+            "color": "#2c2d72",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "───────── Preferencias ─────────",
+            "color": "#ffffff",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Visual Studio",
+            "color": "#68217a",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "Eclipse",
+            "color": "#2c3539",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "IntelliJ IDEA",
+            "color": "#2e8b57",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "Português",
+            "color": "#2ecc71",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "English",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "Homem",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "Mulher",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "+18",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "-18",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "Hetero",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "LGBT",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "Nao Binario",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "Namorando",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "────────────────────────────────",
+            "color": "#080808",
+            "hoist": false,
+            "permissions": "934192090625",
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "comunista",
+            "color": "#f4424b",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "Desbloqueado",
+            "color": "#1abc9c",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "533235326373441",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1697513928342,
+    "guildID": "1147361147058671737",
+    "id": "1163682500699095040",
+    "iconURL": "https://cdn.discordapp.com/icons/1147361147058671737/f86dedf307181e3b479bd2d81acd6635.webp"
+}
