@@ -21,7 +21,7 @@ client.on("ready", async () => {
   choiceinit(client);
   const unixTimestamp = 1677642874;
   const dateFromTimestamp = new Date(unixTimestamp * 1000);
-  /*const r = new Discord.RichPresence()
+  const r = new Discord.RichPresence()
     .setApplicationId('1146949248617828455')
     .setType('PLAYING')
     .setURL('https://discord.gg/infinite-community-1014921352500756500')
@@ -35,7 +35,7 @@ client.on("ready", async () => {
     .setStartTimestamp(dateFromTimestamp)
     .addButton('Join', 'https://discord.gg/infinite-community-1014921352500756500');
   client.user.setActivity(r);
-  client.user.setPresence({ status: "idle" });*/
+  client.user.setPresence({ status: "idle" });
 });
 
 client.once("finish", (event) => {
