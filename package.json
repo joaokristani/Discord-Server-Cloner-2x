@@ -4,7 +4,7 @@
 	"description": "Discord ser cloner 2.0 - Infinite community",
 	"main": "src/index",
 	"scripts": {
-		"start": "tsx ."
+		"start": "tsx src/index"
 	},
 	"devDependencies": {
 		"@types/gradient-string": "^1.1.2",
