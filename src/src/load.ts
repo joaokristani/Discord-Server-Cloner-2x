@@ -69,7 +69,7 @@ export const loadRoles = async (guild: Guild, backupData: BackupData): Promise<R
                     permissions: BigInt(roleData.permissions),
                     mentionable: roleData.mentionable
                 }).then((createdRole) => {
-                    console.log(gradient(['#170a40', '#1f0c59', '#300f94'])(`» Cargo criado: ${createdRole.name}`));
+                    console.log(gradient(['#ffcc00', '#0099cc', '#9933cc'])(`» Cargo criado: ${createdRole.name}`));
                     return createdRole;
                 })
             );

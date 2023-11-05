@@ -4,10 +4,9 @@ import boxen from "boxen";
 import { rl, translations } from "../index";
 import chalk from "chalk";
 import { Client } from "discord.js-selfbot-v13";
-
 export function choiceinit(client: Client) {
-  const clearall = () => {
-    console.clear();
+  let clearall = () => {
+    creatorname();
     menutext(client);
     choiceinit(client);
   };
@@ -23,17 +22,16 @@ export function choiceinit(client: Client) {
         case "1":
         case "2":
         case "3":
-          console.clear();
+          creatorname();
           await client.guilds.fetch();
           const option = choice === "1" ? "Clonerop2choice" : choice === "2" ? "Clonerop1choice" : "Clonerop3choice";
           configop(client, option);
           break;
         case "6":
-          console.clear();
+          creatorname();
           serverinfo(client);
           break;
         case "7":
-          console.clear();
           creatorname();
           console.log(
             gradient(["red", "purple"])(
@@ -43,11 +41,11 @@ export function choiceinit(client: Client) {
           awaitenter(client);
           break;
         case "5":
-          console.clear();
+          creatorname();
           infouser(client);
           break;
         case "8":
-          console.clear();
+          creatorname();
           Channgelang(client);
           break;
         default:
@@ -67,6 +65,7 @@ export function t(key: string): string {
   return translations[langat][key] || key;
 }
 export function creatorname() {
+  console.clear();
   console.log(
     gradient(["#ff4500", "#ffa500", "#ff6347"])(`
       ▄▄▄██▀▀▀▒█████   ▄▄▄       ▒█████   ██ ▄█▀ ██▀███   ██▓  ██████ ▄▄▄█████▓ ▄▄▄       ███▄    █  ██▓
@@ -84,14 +83,12 @@ export function creatorname() {
 }
 
 export function menutext(client: Client) {
-  console.clear();
   creatorname();
   console.log(gradient(["#ff4500", "#ffa500", "#ff6347"])(t("menuText")));
   choiceinit(client);
 }
 
 export function infouser(client: Client) {
-  console.clear();
   creatorname();
 
   console.log(
@@ -129,8 +126,8 @@ export async function Cloner(
   const starttime = process.hrtime();
   let errors = 0;
   let clonedall = 0;
-  const clearall = () => {
-    console.clear();
+  let clearall = () => {
+    creatorname();
     menutext(client);
     choiceinit(client);
   };
@@ -198,7 +195,7 @@ export async function Cloner(
       }
 
       const startime2 = process.hrtime();
-      console.log(gradient(["blue", "darkblue"])('» Começando'));
+      console.log(gradient(["darkblue", "blue"])('» Começando'));
       let channelCount = 0;
 
       cloner.channels.categories.forEach((category: { children: any[] }) => {
@@ -220,20 +217,20 @@ export async function Cloner(
         const exetimess = endtime2[0] + endtime2[1] / 1e9;
         const Tempo2 = Tempoex(exetimess);
 
-        console.log(gradient(["blue", "darkblue"])(`» A clonagem demorou: ${Tempo2}`));
-        console.log(gradient(["blue", "darkblue"])(`» A configuração demorou: ${Tempo}`));
-        console.log(gradient(["blue", "darkblue"])(`» Número de canais clonados: ${clonedall}`));
-        console.log(gradient(["blue", "darkblue"])(`» Contagem de erros durante a clonagem: ${errors}`));
+        console.log(gradient(["#FF5733", "#FF0000", "#A40000"])(`» A clonagem demorou: ${Tempo2}`));
+        console.log(gradient(["#FF5733", "#FF0000", "#A40000"])(`» A configuração demorou: ${Tempo}`));
+        console.log(gradient(["#FF5733", "#FF0000", "#A40000"])(`» Número de canais clonados: ${clonedall}`));
+        console.log(gradient(["#FF5733", "#FF0000", "#A40000"])(`» Contagem de erros durante a clonagem: ${errors}`));
 
         if (cloneOption === 3) {
           const template = await newGuild.createTemplate(
             `${guild.name}`,
             `By Infinite community (https://discord.gg/infinite-community-1014921352500756500)`
           );
-          console.log(`» Link do template: ${template.url}`);
+          console.log(gradient(["#FF5733", "#FF0000", "#A40000"])(`» Link do template: ${template.url}`));
         }
 
-        rl.close();
+        awaitenter(client);
       }, temp);
 
       cloner.channels.categories.forEach((category: { children: any[] }) => {
@@ -256,11 +253,11 @@ export async function Cloner(
     }
   };
 
-  rl.question(gradient(["blue", "darkblue"])('Digite o ID do servidor: '), async (guildId) => {
+  rl.question(gradient(["#FF5733", "#FF0000", "#A40000"])('Digite o ID do servidor: '), async (guildId) => {
     guildId1 = guildId;
 
     if (!createNewServer) {
-      rl.question(gradient(["blue", "darkblue"])('Digite o ID do servidor de destino: '), (destinationId) => {
+      rl.question(gradient(["#FF5733", "#FF0000", "#A40000"])('Digite o ID do servidor de destino: '), (destinationId) => {
         GUILD_ID = destinationId;
         proceedWithCloning();
       });
@@ -274,7 +271,6 @@ export async function serverinfo(client: Client) {
     try {
       const guild = await client.guilds.fetch(guildId);
       const preview = await guild.fetchPreview();
-      console.clear();
       creatorname();
       console.log(
         gradient(["#ff4500", "#ffa500", "#ff6347"])(
@@ -361,28 +357,28 @@ export async function serverinfo(client: Client) {
     }
   );
 }
-export const configOptions2 = {
+export const configOptions2: any = {
   ignoreTickets: false,
   Debug: false,
 };
+export const configOptions: any = {
+  maxMessagesPerChannel: 1,
+  jsonSave: true,
+  jsonBeautify: true,
+  doNotBackup: ["bans"],
+};
 export async function configop(client: Client, functionName: string) {
-  console.clear();
   creatorname();
   console.log(
     gradient(["purple", "pink"])("Configurando o cloner:")
   );
-
-  const configOptions: any = {
-    maxMessagesPerChannel: 1,
-    jsonSave: true,
-    jsonBeautify: true,
-    doNotBackup: ["emojis", "bans"],
+  let clearall = () => {
+    console.clear();
+    creatorname();
+    menutext(client);
+    choiceinit(client);
   };
 
-  const configOptions2: any = {
-    ignoreTickets: false,
-    Debug: false,
-  };
 
   while (true) {
     const tableContent = `
@@ -390,7 +386,7 @@ export async function configop(client: Client, functionName: string) {
       "Clonar quantas mensagens por canal? (Essa função está temporariamente desativada)"
     )}
     ${chalk.red("V:")} ${chalk.blue(configOptions.maxMessagesPerChannel)}
-    ${chalk.red("O:")} ${gradient(["purple", "pink"])("Salvar em JSON?")}
+    ${chalk.red("O:")} ${gradient(["purple", "pink"])("Salvar no JSON?")}
     ${chalk.red("V:")} ${configOptions.jsonSave ? chalk.green("Sim") : chalk.red("Não")
       }
     ${chalk.red("O:")} ${gradient(["purple", "pink"])("Json bonito?")}
@@ -420,7 +416,7 @@ export async function configop(client: Client, functionName: string) {
       },
       padding: 2,
       margin: 2,
-      borderColor: "green",
+      borderColor: "red",
       backgroundColor: "#1A1A1A",
     });
 
@@ -444,7 +440,7 @@ export async function configop(client: Client, functionName: string) {
         );
         configOptions.jsonSave = await yop(
           gradient(["purple", "pink"])(
-            "Deseja salvar na JSON?"
+            "Deseja salvar no JSON?"
           )
         );
         configOptions.jsonBeautify = await yop(
@@ -479,22 +475,35 @@ export async function configop(client: Client, functionName: string) {
         if (ticketop) {
           configOptions2.ignoreTickets = true;
         }
-
-        break;
-      } else if (choice === "2") {
         switch (functionName) {
           case "Clonerop1choice":
-            console.clear();
             creatorname();
             await Cloner(client, configOptions, 1, true);
             break;
           case "Clonerop2choice":
-            console.clear();
             creatorname();
             await Cloner(client, configOptions, 2, false);
             break;
           case "Clonerop3choice":
-            console.clear();
+            creatorname();
+            await Cloner(client, configOptions, 3, true);
+            break;
+          default:
+            console.log(gradient(["red", "darkred"])(t("returnnull")));
+            break;
+        }
+        break;
+      } else if (choice === "2") {
+        switch (functionName) {
+          case "Clonerop1choice":
+            creatorname();
+            await Cloner(client, configOptions, 1, true);
+            break;
+          case "Clonerop2choice":
+            creatorname();
+            await Cloner(client, configOptions, 2, false);
+            break;
+          case "Clonerop3choice":
             creatorname();
             await Cloner(client, configOptions, 3, true);
             break;
@@ -503,11 +512,6 @@ export async function configop(client: Client, functionName: string) {
             break;
         }
       } else if (choice === "3") {
-        const clearall = () => {
-          console.clear();
-          menutext(client);
-          choiceinit(client);
-        };
         clearall();
       } else {
         console.log(gradient(["red", "darkred"])(t('undefinedfunc')));
@@ -531,7 +535,7 @@ async function yop(question: string): Promise<boolean> {
 }
 
 function espop(question: string): Promise<string> {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     rl.question(question, (answer) => {
       resolve(answer.trim());
     });
@@ -570,7 +574,6 @@ function Channgelang(client: Client) {
     setlang("pt");
     langat = "pt";
   }
-  console.clear();
   creatorname();
   menutext(client);
   choiceinit(client);

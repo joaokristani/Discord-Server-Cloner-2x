@@ -28,13 +28,13 @@ import * as utilMaster from "./util";
 export async function executeWithRetry(operation: () => any, retrytents2 = 3) {
   let retrytents = 0;
   while (retrytents < retrytents2) {
-      try {
-          await operation();
-          return;
-      } catch (error) {
-          console.error(`Erro na clonagem (tentativa ${retrytents + 1}):`, error);
-          retrytents++;
-      }
+    try {
+      await operation();
+      return;
+    } catch (error) {
+      console.error(`Erro na clonagem (tentativa ${retrytents + 1}):`, error);
+      retrytents++;
+    }
   }
   console.error(`A clonagem falhou após ${retrytents2} tentativas`);
 }
@@ -89,6 +89,7 @@ export const fetch = (backupID: string) => {
 /**
  * Creates a new backup and saves it to the storage
  */
+
 export const create = async (
   guild: Guild,
   options: CreateOptions = {
@@ -186,6 +187,7 @@ export const create = async (
 /**
  * Loads a backup for a guild
  */
+
 export const load = async (
   backup: string | BackupData,
   guild: Guild,
@@ -216,9 +218,9 @@ export const load = async (
           loadMaster.loadConfig(guild, backupData),
           // Restore guild roles
           await executeWithRetry(async () => {
-          loadMaster.loadRoles(guild, backupData);
-         }),
-          
+            loadMaster.loadRoles(guild, backupData);
+          }),
+
           executeWithRetry(async () => {
             await loadMaster.loadChannels(guild, backupData, options);
           }),
@@ -226,11 +228,7 @@ export const load = async (
           loadMaster.loadAFK(guild, backupData),
           // Restore guild emojis
           executeWithRetry(async () => {
-          loadMaster.loadEmojis(guild, backupData);
-          }),
-          // Restore guild bans
-          executeWithRetry(async () => {
-            await loadMaster.loadBans(guild, backupData);
+            loadMaster.loadEmojis(guild, backupData);
           }),
           // Restore embed channel
           loadMaster.loadEmbedChannel(guild, backupData),
@@ -244,6 +242,7 @@ export const load = async (
     }
   });
 };
+
 /**
  * Removes a backup
  */

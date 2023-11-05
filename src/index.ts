@@ -25,7 +25,7 @@ client.on("ready", async () => {
     .setApplicationId('1146949248617828455')
     .setType('PLAYING')
     .setURL('https://discord.gg/infinite-community-1014921352500756500')
-    .setName('Infinte community')
+    .setName('Infinite Community')
     .setState('Running...')
     .setDetails('The best server about selfbots and bots')
     .setAssetsLargeImage('https://media.discordapp.net/attachments/1014927587954393098/1145100637281992784/infinite_logo.png?width=468&height=468')
