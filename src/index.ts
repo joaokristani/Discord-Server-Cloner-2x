@@ -45,7 +45,7 @@ client.once("finish", (event) => {
 if (!token) {
   console.clear();
   creatorname();
-  rl.question(gradient(["purple", "pink"])("Insira seu token do Discord (Dica: Quando o token for colocado no .env, não terá mais essa pergunta)\n» "), (input) => {
+  rl.question(gradient(["purple", "pink"])("Token\n» "), (input) => {
     if (input.trim() === '') {
       console.log(gradient(["red", "orange"])("O token foi retornado como vázio"));
       process.kill(1);
@@ -54,7 +54,7 @@ if (!token) {
         .catch((error) => {
           if (error.message === 'An invalid token was provided.') {
             console.clear();
-            console.log(gradient(["red", "orange"])("Esse token não existe (Invalid token)"));
+            console.log(gradient(["red", "orange"])("Invalid token"));
           } else {
             console.clear();
             console.error(gradient(["red", "orange"])(`Erro ao fazer login: ${error.message}`));
@@ -68,7 +68,7 @@ if (!token) {
     .catch((error) => {
       console.clear();
       if (error.message === 'An invalid token was provided.') {
-        console.log(gradient(["red", "orange"])("Esse token não existe (Invalid token)"));
+        console.log(gradient(["red", "orange"])("Invalid token"));
       } else {
         console.clear();
         console.error(gradient(["red", "orange"])(`Erro ao fazer login: ${error.message}`));
