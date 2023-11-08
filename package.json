@@ -1,7 +1,7 @@
 {
 	"name": "discord-server-cloner-2",
 	"version": "2.0",
-	"description": "Discord ser cloner 2.0 - Infinite community",
+	"description": "Discord Server Cloner 2.0 - Infinite community",
 	"main": "src/index",
 	"scripts": {
 		"start": "tsx src/index"
