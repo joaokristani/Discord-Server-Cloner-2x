@@ -45,7 +45,7 @@ client.once("finish", (event) => {
 if (!token) {
   console.clear();
   creatorname();
-  rl.question(gradient(["purple", "pink"])("Token\n» "), (input) => {
+  rl.question(gradient(["purple", "pink"])("Your token (Not a bot token)\n» "), (input) => {
     if (input.trim() === '') {
       console.log(gradient(["red", "orange"])("O token foi retornado como vázio"));
       process.kill(1);
