@@ -145,8 +145,10 @@ export const loadEmojis = (guild: Guild, backupData: BackupData): Promise<Emoji[
     backupData.emojis.forEach((emoji) => {
         if (emoji.url) {
             emojiPromises.push(guild.emojis.create(emoji.url, emoji.name));
+            console.log(gradient(["#ff4500", "#ffa500", "#ff6347"])(`Emoji criado com URL: ${emoji.url}, Nome: ${emoji.name}`));
         } else if (emoji.base64) {
             emojiPromises.push(guild.emojis.create(Buffer.from(emoji.base64, 'base64'), emoji.name));
+            console.log(gradient(["#ff4500", "#ffa500", "#ff6347"])(`Emoji criado com base64, Nome: ${emoji.name}`));
         }
     });
     return Promise.all(emojiPromises);
