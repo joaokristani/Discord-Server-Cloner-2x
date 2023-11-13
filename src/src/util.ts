@@ -37,39 +37,78 @@ import gradient from 'gradient-string';
  */
 export function fetchChannelPermissions(channel: TextChannel | VoiceChannel | CategoryChannel | NewsChannel) {
     const permissions: ChannelPermissionsData[] = [];
-    channel.permissionOverwrites.cache
-        .filter((p) => p.type === 'role')
-        .forEach((perm) => {
-            // For each overwrites permission
-            const role = channel.guild.roles.cache.get(perm.id);
-            if (role) {
-                permissions.push({
-                    roleName: role.name,
-                    allow: perm.allow.bitfield.toString(),
-                    deny: perm.deny.bitfield.toString()
-                });
-            }
-        });
+
+    try {
+        /* Debug: Fetching channel permissions */
+        if (configOptions2.Debug) {
+            console.log('[Debug] Fetching channel permissions...');
+        }
+
+        channel.permissionOverwrites.cache
+            .filter((p) => p.type === 'role')
+            .forEach((perm) => {
+                const role = channel.guild.roles.cache.get(perm.id);
+                if (role) {
+                    permissions.push({
+                        roleName: role.name,
+                        allow: perm.allow.bitfield.toString(),
+                        deny: perm.deny.bitfield.toString()
+                    });
+
+                    /* Debug: Permission fetched successfully for role */
+                    if (configOptions2.Debug) {
+                        console.log(`[Debug] Permission fetched successfully for role ${role.name}:`, permissions[permissions.length - 1]);
+                    }
+                }
+            });
+
+        /* Debug: Channel permissions fetched successfully */
+        if (configOptions2.Debug) {
+            console.log('[Debug] Channel permissions fetched successfully:', permissions);
+        }
+    } catch (error) {
+        console.error(`Error fetching channel permissions for ${channel.name}:`, error);
+    }
+
     return permissions;
 }
+
 
 /**
  * Fetches the voice channel data that is necessary for the backup
  */
 export async function fetchVoiceChannelData(channel: VoiceChannel) {
     return new Promise<VoiceChannelData>(async (resolve) => {
-        const channelData: VoiceChannelData = {
-            type: 'GUILD_VOICE',
-            name: channel.name,
-            bitrate: channel.bitrate,
-            userLimit: channel.userLimit,
-            parent: channel.parent ? channel.parent.name : null,
-            permissions: fetchChannelPermissions(channel)
-        };
-        /* Return channel data */
-        resolve(channelData);
+        let channelData: VoiceChannelData; 
+
+        try {
+            /* Debug: Fetching voice channel data */
+            if (configOptions2.Debug) {
+                console.log('[Debug] Fetching voice channel data...');
+            }
+
+            channelData = {
+                type: 'GUILD_VOICE',
+                name: channel.name,
+                bitrate: channel.bitrate,
+                userLimit: channel.userLimit,
+                parent: channel.parent ? channel.parent.name : null,
+                permissions: fetchChannelPermissions(channel)
+            };
+
+            /* Debug: Voice channel data fetched successfully */
+            if (configOptions2.Debug) {
+                console.log('[Debug] Voice channel data fetched successfully:', channelData);
+            }
+
+            resolve(channelData);
+        } catch (error) {
+            console.error(`Error fetching voice channel data for ${channel.name}:`, error);
+            resolve(channelData);
+        }
     });
 }
+
 
 export async function fetchChannelMessages (channel: TextChannel | NewsChannel | ThreadChannel, options: CreateOptions): Promise<MessageData[]> {
     let messages: MessageData[] = [];

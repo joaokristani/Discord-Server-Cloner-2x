@@ -192,7 +192,7 @@ export const translations: Translations = {
     no: "Não",
     cloningmessage: "Deseja clonar quantas mensagens por canal? (A função de clonar mensagens foi desativada para testes): ",
     savejsoninput: "Deseja salvar no JSON?",
-    noclonerinput: "Digite o que você deseja ignorar (ex: emojis, channels, roles ou vocês pode deixar em branco): ",
+    noclonerinput: "Digite o que você deseja ignorar (ex: emojis, channels, roles ou você pode deixar em branco): ",
     ignoreticketsinput: "Deseja ignorar tickets?",
     debugoption: "Deseja ativar o debug?"},
 };
