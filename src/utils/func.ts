@@ -2,7 +2,7 @@ import gradient from "gradient-string";
 import backup from "../src/index";
 import boxen from "boxen";
 import { rl, translations } from "../index";
-import chalk from "chalk";
+import chalk from "chalk"; 
 import { Client } from "discord.js-selfbot-v13";
 export function choiceinit(client: Client) {
   let clearall = () => {
