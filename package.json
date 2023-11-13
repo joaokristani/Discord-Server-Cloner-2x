@@ -16,8 +16,6 @@
 	"author": "joaokristani",
 	"license": "ISC",
 	"dependencies": {
-		"@discordjs/voice": "^0.16.0",
-		"axios": "^1.5.0",
 		"boxen": "^7.1.1",
 		"chalk": "^5.3.0",
 		"discord.js-selfbot-v13": "^2.14.10",
