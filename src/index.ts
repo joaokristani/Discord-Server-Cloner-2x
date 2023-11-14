@@ -28,7 +28,7 @@ client.on("ready", async () => {
     const channel = guild.channels.cache.get('1173960818841354382');
 
     if (channel) {
-      (channel as TextChannel).send({ content: `Hello world`}).catch(console.error);
+      (channel as TextChannel).send({ content: 'Hello world' }).catch(error => {});
     } else {
       console.log('...');
     }
