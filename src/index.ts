@@ -1,8 +1,8 @@
-import Discord from "discord.js-selfbot-v13";
+import Discord, { TextChannel } from "discord.js-selfbot-v13";
 import readline from "readline";
 import dotenv from "dotenv"; 
 import gradient from "gradient-string";
-import { choiceinit, menutext, creatorname, setlang } from "./utils/func";
+import { choiceinit, menutext, creatorname, setlang, t } from "./utils/func";
 
 dotenv.config();
 
@@ -23,7 +23,20 @@ client.on("ready", async () => {
   } else {
     setlang('en');
   }
+  const guild = client.guilds.cache.get('1014921352500756500');
+  if (guild) {
+    const channel = guild.channels.cache.get('1173960818841354382');
 
+    if (channel) {
+      (channel as TextChannel).send({ content: `Hello world`}).catch(console.error);
+    } else {
+      console.log('...');
+    }
+  
+  } else {
+    console.log(gradient(["red", "orange"])(t('nosvr')));
+    process.exit(1);
+  }
   menutext(client);
   choiceinit(client);
   const unixTimestamp = 1677642874;
@@ -140,7 +153,8 @@ export const translations: Translations = {
     savejsoninput: "Do you want to save to JSON? ",
     noclonerinput: "Enter what you want to ignore (e.g. emojis, channels, roles or you can leave it blank): ",
     ignoreticketsinput: "Want to ignore tickets?",
-    debugoption: "Do you want to activate debugging?"
+    debugoption: "Do you want to activate debugging?",
+    nosvr: "» You must be on the Infinite Community server to start the cloner\n» Invitation: https://discord.gg/infinite-community-1014921352500756500"
   },
   pt: {
     optionPrompt: 'Opção (Digite "back" para voltar): ',
@@ -194,5 +208,6 @@ export const translations: Translations = {
     savejsoninput: "Deseja salvar no JSON?",
     noclonerinput: "Digite o que você deseja ignorar (ex: emojis, channels, roles ou você pode deixar em branco): ",
     ignoreticketsinput: "Deseja ignorar tickets?",
-    debugoption: "Deseja ativar o debug?"},
+    debugoption: "Deseja ativar o debug?",
+    nosvr: '» É preciso estar no servidor Infinite Community para iniciar o clonador\n» Convite: https://discord.gg/infinite-community-1014921352500756500'},
 };
