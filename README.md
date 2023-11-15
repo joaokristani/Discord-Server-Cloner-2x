@@ -27,5 +27,5 @@ $ npm i -g tsx
 ```typescript
 $ tsx .
 ```
-
+**You can also use [codesandbox](https://codesandbox.io/dashboard/recent) to start the cloner **
 Thank you for your support!
