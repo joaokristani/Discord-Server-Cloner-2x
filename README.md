@@ -17,7 +17,7 @@ $ npm i
 # or
 $ yarn add
 ```
-**Examples with tsx***
+* **Examples with tsx**
 ```typescript
 $ pnpm i -g tsx
 # or
