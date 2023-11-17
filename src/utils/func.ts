@@ -363,7 +363,7 @@ export const configOptions: any = {
   maxMessagesPerChannel: 0,
   jsonSave: true,
   jsonBeautify: true,
-  doNotBackup: ["bans"],
+  doNotBackup: ["bans", "emojis"],
 };
 export async function configop(client: Client, functionName: string) {
   creatorname();
