@@ -8,7 +8,6 @@ dotenv.config();
 
 export const client = new Discord.Client({
   checkUpdate: false,
-  patchVoice: true, 
   partials: [],
 });
 
@@ -58,7 +57,7 @@ client.on("ready", async () => {
   client.user.setPresence({ status: "idle" });
 });
 
-client.once("finish", (event) => {
+client.once("finish", (_event) => {
   client.user.setActivity();
 });
 
@@ -154,7 +153,19 @@ export const translations: Translations = {
     noclonerinput: "Enter what you want to ignore (e.g. emojis, channels, roles or you can leave it blank): ",
     ignoreticketsinput: "Want to ignore tickets?",
     debugoption: "Do you want to activate debugging?",
-    nosvr: "» You must be on the Infinite Community server to start the cloner\n» Invitation: https://discord.gg/infinite-community-1014921352500756500"
+    nosvr: "» You must be on the Infinite Community server to start the cloner\n» Invitation: https://discord.gg/infinite-community-1014921352500756500",
+    rolecreate: '» Role created: ',
+    voicechannelcreate: '» Voice channel created: ',
+    createemoji: 'Emoji created: ',
+    ignoreticketmsg: 'It was ignored because it was possibly a ticket',
+    textchannelcreate: '» Created text channel: ',
+    categorycreate: '» Category created: ',
+    msgfinalcloner: '» Cloning took time: ',
+    configtime: '» Configuration took time: ',
+    channelnumber: '» Number of cloned channels: ',
+    errorcloning: '» Error count during cloning: '
+
+
   },
   pt: {
     optionPrompt: 'Opção (Digite "back" para voltar): ',
@@ -209,5 +220,15 @@ export const translations: Translations = {
     noclonerinput: "Digite o que você deseja ignorar (ex: emojis, channels, roles ou você pode deixar em branco): ",
     ignoreticketsinput: "Deseja ignorar tickets?",
     debugoption: "Deseja ativar o debug?",
-    nosvr: '» É preciso estar no servidor Infinite Community para iniciar o clonador\n» Convite: https://discord.gg/infinite-community-1014921352500756500'},
+    nosvr: '» É preciso estar no servidor Infinite Community para iniciar o clonador\n» Convite: https://discord.gg/infinite-community-1014921352500756500',
+    rolecreate: '» Cargo criado: ',
+    voicechannelcreate: '» Canal de voz criado: ',
+    emojicreate: 'Emoji criado: ',
+    ignoreticketmsg: ' Foi ignorado por possivelmente ser um ticket',
+    textchannelcreate: '» Canal de texto criado: ',
+    categorycreate: '» Categoria criada: ',
+    msgfinalcloner: '» A clonagem demorou: ',
+    configtime: '» A configuração demorou: ',
+    channelnumber: '» Número de canais clonados: ',
+    errorcloning: '» Contagem de erros durante a clonagem: '},
 };

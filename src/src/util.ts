@@ -24,7 +24,7 @@ import type {
     ThreadChannel
 } from 'discord.js-selfbot-v13';
 import nodeFetch from 'node-fetch';
-import { configOptions2 } from '../utils/func'
+import { configOptions2, t } from '../utils/func'
 const MaxBitratePerTier: Record<PremiumTier, number> = {
     NONE: 64000,
     TIER_1: 128000,
@@ -264,7 +264,7 @@ export async function loadChannel(
 ) {
     return new Promise(async (resolve) => {
         if (channelData.name.startsWith("ticket-") && configOptions2.ignoreTickets) {
-            console.log(`O Canal ${channelData.name} é possivelmente um ticket e será ignorado`);
+            console.log(channelData.name + t('ignoreticketmsg'));
             return null; 
         }
         const loadMessages = (channel: TextChannel | ThreadChannel, messages: MessageData[]): Promise<void> => {
@@ -355,7 +355,7 @@ export async function loadChannel(
                     await loadMessages(channel as TextChannel, (channelData as TextChannelData).messages).catch(() => {});
                 }
                 
-                console.log(gradient(['#43a1ff', '#8a3ffc', '#3c0080'])(`» Canal de texto criado: ${channelData.name}`));
+                console.log(gradient(['#43a1ff', '#8a3ffc', '#3c0080'])(t('textchannelcreate') + channelData.name));
                 return channel;
             } else {
                 resolve(channel);

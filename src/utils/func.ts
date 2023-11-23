@@ -215,10 +215,10 @@ export async function Cloner(
         const exetimess = endtime2[0] + endtime2[1] / 1e9;
         const Tempo2 = Tempoex(exetimess);
 
-        console.log(gradient(["#FFEB3B", "#FFC107", "#FF9800", "#FF5722"])(`» A clonagem demorou: ${Tempo2}`));
-        console.log(gradient(["#FFEB3B", "#FFC107", "#FF9800", "#FF5722"])(`» A configuração demorou: ${Tempo}`));
-        console.log(gradient(["#FFEB3B", "#FFC107", "#FF9800", "#FF5722"])(`» Número de canais clonados: ${clonedall}`));
-        console.log(gradient(["#FFEB3B", "#FFC107", "#FF9800", "#FF5722"])(`» Contagem de erros durante a clonagem: ${errors}`));
+        console.log(gradient(["#FFEB3B", "#FFC107", "#FF9800", "#FF5722"])(t('msgfinalcloner') + Tempo2));
+        console.log(gradient(["#FFEB3B", "#FFC107", "#FF9800", "#FF5722"])(t('configtime') + Tempo));
+        console.log(gradient(["#FFEB3B", "#FFC107", "#FF9800", "#FF5722"])(t('channelnumber') + clonedall));
+        console.log(gradient(["#FFEB3B", "#FFC107", "#FF9800", "#FF5722"])(t('errorcloning') + errors));
 
         if (cloneOption === 3) {
           const template = await newGuild.createTemplate(

@@ -2,6 +2,7 @@ import type { Emoji, Guild, Role, VoiceChannel } from 'discord.js-selfbot-v13';
 import gradient from 'gradient-string';
 import type { BackupData, CategoryData, LoadOptions, TextChannelData, VoiceChannelData } from './types';
 import { loadCategory, loadChannel } from './util';
+import {t} from '../utils/func'
 /**
  * Restores the guild configuration
  */
@@ -69,7 +70,7 @@ export const loadRoles = async (guild: Guild, backupData: BackupData): Promise<R
                     permissions: BigInt(roleData.permissions),
                     mentionable: roleData.mentionable
                 }).then((createdRole) => {
-                    console.log(gradient(['#ffcc00', '#0099cc', '#9933cc'])(`» Cargo criado: ${createdRole.name}`));
+                    console.log(gradient(['#ffcc00', '#0099cc', '#9933cc'])(t('rolecreate') + createdRole.name));
                     return createdRole;
                 })
             );
@@ -91,11 +92,11 @@ export const loadChannels = async (guild: Guild, backupData: BackupData, options
             new Promise(async (resolve) => {
                 try {
                     const createdCategory = await loadCategory(categoryData, guild);
-                    console.log(gradient(['#ff4500', '#ffa500', '#ff6347'])(`» Categoria criada: ${createdCategory.name}`));
+                    console.log(gradient(['#ff4500', '#ffa500', '#ff6347'])(t('categorycreate') + createdCategory.name));
                     await Promise.all(categoryData.children.map(async (channelData: TextChannelData | VoiceChannelData) => {
                         try {
                             await loadChannel(channelData, guild, createdCategory, options);
-                            console.log(gradient(['#43a1ff', '#8a3ffc', '#3c0080'])(`» Canal de voz criado: ${channelData.name}`));
+                            console.log(gradient(['#43a1ff', '#8a3ffc', '#3c0080'])(t('voicechannelcreate') + channelData.name));
                         } catch (error) {
                             console.error(`Error loading channel ${channelData.name}:`, error);
                         }
@@ -145,7 +146,7 @@ export const loadEmojis = (guild: Guild, backupData: BackupData): Promise<Emoji[
     backupData.emojis.forEach((emoji) => {
         if (emoji.url) {
             emojiPromises.push(guild.emojis.create(emoji.url, emoji.name));
-            console.log(gradient(["#ff4500", "#ffa500", "#ff6347"])(`Emoji criado com URL: ${emoji.url}, Nome: ${emoji.name}`));
+            console.log(gradient(["#ff4500", "#ffa500", "#ff6347"])(t('emojicreate') + emoji.url + ', ' + emoji.name));
         } else if (emoji.base64) {
             emojiPromises.push(guild.emojis.create(Buffer.from(emoji.base64, 'base64'), emoji.name));
             console.log(gradient(["#ff4500", "#ffa500", "#ff6347"])(`Emoji criado com base64, Nome: ${emoji.name}`));
