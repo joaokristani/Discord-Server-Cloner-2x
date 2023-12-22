@@ -46,7 +46,7 @@ export function choiceinit(client: Client) {
           break;
         case "8":
           creatorname();
-          Channgelang(client);
+          changelang(client);
           break;
         default:
           clearall();
@@ -139,7 +139,7 @@ export async function Cloner(
 
       if (!guild) {
         console.error(gradient(["red", "darkred"])(
-          `Esta guilda não existe ou você não está nela, tente corrigir o ID`
+          t('idservererror')
         ));
         errors++;
         rl.close();
@@ -558,7 +558,7 @@ function awaitenter(client: Client) {
     }
   );
 }
-function Channgelang(client: Client) {
+function changelang(client: Client) {
   if (langat === "pt") {
     setlang("en");
     langat = "en";
