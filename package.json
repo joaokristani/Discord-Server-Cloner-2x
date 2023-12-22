@@ -7,10 +7,10 @@
 		"start": "tsx src/index"
 	},
 	"devDependencies": {
-		"@types/gradient-string": "^1.1.2",
-		"@types/node": "^20.6.0",
-		"ts-node": "^10.9.1",
-		"typescript": "^5.2.2"
+		"@types/gradient-string": "^1.1.5",
+		"@types/node": "^20.10.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
 	},
 	"keywords": [],
 	"author": "joaokristani",
@@ -22,6 +22,6 @@
 		"dotenv": "^16.3.1",
 		"gradient-string": "^2.0.2",
 		"node-fetch": "^3.3.2",
-		"tsx": "^3.12.10"
+		"tsx": "^3.14.0"
 	}
 }
