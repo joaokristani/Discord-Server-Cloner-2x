@@ -8,9 +8,9 @@
 	},
 	"devDependencies": {
 		"@types/gradient-string": "^1.1.5",
-		"@types/node": "^20.10.5",
-		"ts-node": "^10.9.2",
-		"typescript": "^5.3.3"
+		"@types/node": "^20.10.7",
+		"@types/readline-sync": "^1.4.8",
+		"ts-node": "^10.9.2"
 	},
 	"keywords": [],
 	"author": "joaokristani",
@@ -18,10 +18,11 @@
 	"dependencies": {
 		"boxen": "^7.1.1",
 		"chalk": "^5.3.0",
-		"discord.js-selfbot-v13": "^2.15.0",
+		"discord.js-selfbot-v13": "^2.15.1",
 		"dotenv": "^16.3.1",
 		"gradient-string": "^2.0.2",
 		"node-fetch": "^3.3.2",
+		"readline-sync": "^1.4.10",
 		"tsx": "^3.14.0"
 	}
 }

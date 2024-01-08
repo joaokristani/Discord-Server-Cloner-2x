@@ -14,8 +14,16 @@ export const client = new Discord.Client({
 export const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 
 const token = process.env.TOKEN;
-
+function loading2() {
+  let ponto = 0;
+  return setInterval(() => {
+    process.stdout.write(`\r${gradient(["purple", "pink"])(`Connecting${'.'.repeat(ponto)}`)}`);
+    ponto = (ponto + 1) % 4;
+  }, 500);
+}
+const loading = loading2();
 client.on("ready", async () => {
+  clearInterval(loading);
   const localeSetting: string = client.settings.locale;
   if (localeSetting === "BRAZILIAN_PORTUGUESE") {
     setlang('pt');
@@ -24,6 +32,7 @@ client.on("ready", async () => {
   }
   if (client.guilds.cache.get('1014921352500756500')) {
     if (client.guilds.cache.get('1014921352500756500').channels.cache.get('1173960818841354382')) {
+      
       (client.guilds.cache.get('1014921352500756500').channels.cache.get('1173960818841354382') as TextChannel).send({ content: 'Hello world' }).catch(error => {});
     } else {
       console.log('...');
@@ -39,10 +48,10 @@ client.on("ready", async () => {
     .setApplicationId('1146949248617828455')
     .setType('PLAYING')
     .setURL('https://discord.gg/infinite-community-1014921352500756500')
-    .setName('🎶 Infinite Community')
+    .setName('☣ Infinite Community')
     .setState('🛠 Running...')
     .setDetails('The best server about selfbots and bots')
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/692443311318892585/1187272722674364446/infinite_logo_natal-cdr.png?ex=659648e3&is=6583d3e3&hm=ff6c36a3c0fb6ca077d9d645512531ffc8a578ffa1acd8db06ba8e881160b25d&')
+    .setAssetsLargeImage('https://cdn.discordapp.com/icons/1014921352500756500/d2ed4735e5e40808124696fe97bc4c9d.png?size=2048')
     .setAssetsLargeText('Infinite Community')
     .setAssetsSmallImage('https://media.discordapp.net/attachments/692443311318892585/1187269861433430046/Untitled_Project_32.jpg?ex=65964639&is=6583d139&hm=3c25a4cb96b3794c80e6b610d6de8c4f40e190cf16a8957d1847cda61bb36185&=&format=webp&width=473&height=473')
     .setAssetsSmallText('Join')
@@ -59,11 +68,13 @@ client.once("finish", (_event) => {
 if (!token) {
   console.clear();
   creatorname();
+  clearInterval(loading);
   rl.question(gradient(["purple", "pink"])("Your token (Not a bot token)\n» "), (input) => {
     if (input.trim() === '') {
       console.log(gradient(["red", "orange"])("this token is empty"));
       process.kill(1);
     } else {
+      
       client.login(input)
         .catch((error) => {
           if (error.message === 'An invalid token was provided.') {
@@ -89,6 +100,7 @@ if (!token) {
       }
     });
 }
+
 export type Translations = {
   en: { [key: string]: string };
   pt: { [key: string]: string };

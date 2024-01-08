@@ -62,8 +62,9 @@
         "configtime": "» Configuration took time: ",
         "channelnumber": "» Number of cloned channels: ",
         "errorcloning": "» Error count during cloning: ",
-        "idservererror": "[ERROR] - This guild does not exist or you are not in it, try correcting the ID",
-        "join": "♟ Join"
+        "idservererror": "[ERROR] This guild does not exist or you are not in it, try correcting the ID",
+        "join": "♟ Join",
+        "svrlimitt": "[Warn] You have reached your server limit :(\n[Warn] If you think you have not reached your server limit and believe this to be a bug you can report it on our Discord"
       },
       "pt": {
         "optionPrompt": "Opção (Digite 'back' para voltar): ",
@@ -73,14 +74,14 @@
         "returnnull": "Não obteve retorno...",
         "awaitenter": "Clique no 'ENTER' para continuar...",
         "ServerID2": "Digite o ID do seu servidor (Servidor que você tem um cargo administrador ou posse): ",
-        "menuText": "[1] - Clonar tudo para um servidor já criado\n[2] - Clonar tudo para um servidor que o clonador irá criar\n[3] - Clonar tudo para um servidor que o clonador irá criar e gerar um template\n[5] - Informações da conta\n[6] - Informações do servidor por ID\n[7] - Discord Oficial\n[8] - Change to english (Mudar para inglês)",
+        "menuText": "[1] Clonar tudo para um servidor já criado\n[2] Clonar tudo para um servidor que o clonador irá criar\n[3] Clonar tudo para um servidor que o clonador irá criar e gerar um template\n[5] Informações da conta\n[6] Informações do servidor por ID\n[7] Discord Oficial\n[8] Change to english (Mudar para inglês)",
         "cloneInProgress": "> Clonagem em andamento...",
-        "messagesPerChannel": "Quantas mensagens por canal você deseja clonar? (Esta função está temporariamente desativada): ",
+        "messagesPerChannel": "Quantas mensagens por canal você deseja clonar? (Essa função está temporariamente desativada): ",
         "saveToJson": "Deseja salvar em JSON? (1 - Sim, 2 - Não): ",
         "beautifyJson": "Deseja formatar o JSON? (1 - Sim, 2 - Não): ",
         "ignoreOptions": "Digite o que você deseja ignorar (por exemplo, emojis, canais, cargos): ",
         "reconfigure": "Deseja reconfigurar? (1 - Sim, 2 - Não, 3 - Voltar): ",
-        "invalidOption": "Esta opção não está definida",
+        "invalidOption": "Essa opção não está definida",
         "cloneCompleted": "> Clonagem concluída!",
         "configTime": "> Tempo de configuração: ",
         "clonedChannels": "> Número de canais clonados: ",
@@ -128,7 +129,8 @@
         "configtime": "» A configuração demorou: ",
         "channelnumber": "» Número de canais clonados: ",
         "errorcloning": "» Contagem de erros durante a clonagem: ",
-        "idservererror": "[ERRO] - Esta guilda não existe ou você não está nela, tente corrigir o ID",
-        "join": "♟ Entrar"
+        "idservererror": "[ERRO] Essa guilda não existe ou você não está nela, tente corrigir o ID",
+        "join": "♟ Entrar",
+        "svrlimitt": "[Warn] Você atingiu seu limite de servidores :(\n[Warn] Caso você ache que você não atingiu o limite de servidores e acredita que isso seja um bug você pode reportar em nosso Discord"
       }
     }
