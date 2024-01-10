@@ -163,7 +163,7 @@ export async function Cloner(
         );
 
         if (!newGuild) {
-          console.error(gradient(["red", "darkred"])('Acontecu um erro fatal na criação do servidor, o clonador será reiniciado em 10 segundos'));
+          console.error(gradient(["red", "darkred"])('Aconteceu um erro fatal na criação do servidor, o clonador será reiniciado em 10 segundos'));
           errors++;
           setTimeout(() => {
             clearall();
@@ -252,10 +252,11 @@ export async function Cloner(
       const exetimes = endtime[0] + endtime[1] / 1e9;
       const Tempo = Tempoex(exetimes);
     } catch (error) {
-      console.error(gradient(["red", "darkred"])('Ocorreu um erro durante a clonagem: ', error));
+      console.error('Ocorreu um erro específico durante a clonagem: ', error);
       errors++;
       rl.close();
     }
+    
   };
 
   rl.question(gradient(["#5bb409", "#6ed60e", "#e8fad8"])(t('ServerID')), async (guildId: string) => {
