@@ -147,13 +147,13 @@ export async function Cloner(
         return;
       }
       if (createNewServer) {
-        if (client.guilds.cache.size > 100 || (client.user?.nitroType !== 'NONE' && client.guilds.cache.size <= 200)) {
+        /*if (client.guilds.cache.size > 100 || (client.user?.nitroType !== 'NONE' && client.guilds.cache.size <= 200)) {
           console.error(gradient(["red", "darkred"])(t('svrlimitt')));
           setTimeout(() => {
             clearall();
           }, 20000);
           return;
-        }
+        }*/
         const newGuild = await client.guilds.create(
           'Infinite Community Cloner',
           {
