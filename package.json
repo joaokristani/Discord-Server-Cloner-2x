@@ -4,8 +4,8 @@
 	"description": "Discord Server Cloner 2.0 - Infinite community",
 	"main": "src/index",
 	"scripts": {
-		"start": "start.bat",
-		"pass": "tsx src/index"
+		"pass": "start.bat",
+		"start": "tsx src/index"
 	},
 	"devDependencies": {
 		"@types/gradient-string": "^1.1.5",
