@@ -9,7 +9,7 @@ This project was made to make your life easier, instead of spending hours trying
 
 **More information:** [Cloner Website](https://cloner-one.vercel.app/)
 
-## How to use? 
+## How to use
 ```typescript
 $ pnpm i
 # or
@@ -30,5 +30,9 @@ $ tsx .
 **You can also use [codesandbox](https://codesandbox.io/dashboard/recent) to start the cloner**
 
 ----
+
+![image](https://github.com/joaokristani/Discord-Server-Cloner-2x/assets/136858930/f387f534-88c6-4e1f-8cc1-2d9cdd28d3ca)
+
+
 
 ### Thank you for your support!
