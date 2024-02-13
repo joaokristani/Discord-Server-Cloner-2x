@@ -84,9 +84,11 @@ export function creatorname() {
 
 export function menutext(client: Client) {
   creatorname();
-  console.log(gradient(["#ff4500", "#ffa500", "#ff6347"])(t("menuText")));
+  const goodbyegudog = langat !== "en" ? gradient(["#2180db", "#75a1cb", "#78a5d3"])(["[0] Nos despedimos do Gudog com carinho, Adeus gudog\n","[0] Em homenagem ao gudog, Descanse em paz\n","[0] Em memória do Gudog, um administrador que nos deixou. Adeus, amigo\n"][Math.floor(Math.random() * 3)]) : null;
+  console.log((goodbyegudog ? goodbyegudog : '') + gradient(["#ff4500", "#ffa500", "#ff6347"])(t("menuText")));
   choiceinit(client);
 }
+
 
 export function infouser(client: Client) {
   creatorname();
