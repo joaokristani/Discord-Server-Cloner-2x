@@ -9,9 +9,13 @@
 	},
 	"devDependencies": {
 		"@types/gradient-string": "^1.1.5",
+		"@types/jest": "^30.0.0",
 		"@types/node": "^20.10.7",
 		"@types/readline-sync": "^1.4.8",
-		"ts-node": "^10.9.2"
+		"jest": "^30.4.2",
+		"ts-jest": "^29.4.9",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.9.3"
 	},
 	"keywords": [],
 	"author": "joaokristani",
